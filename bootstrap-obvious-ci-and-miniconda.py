@@ -18,7 +18,7 @@ except ImportError:
     from urllib import urlretrieve
 
 MINICONDA_URL_TEMPLATE = (
-    "https://repo.continuum.io/miniconda/Miniconda{major_py_version}-"
+    "https://repo.anaconda.com/miniconda/Miniconda{major_py_version}-"
     "{miniconda_version}-{OS}-{arch}.{ext}"
 )
 
